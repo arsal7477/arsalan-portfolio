@@ -56,6 +56,7 @@
         <div class="max-w-7xl mx-auto py-3 px-1 flex justify-center space-x-2 md:space-x-12">
             <a href="#home" class="text-gray-300 hover:text-accent font-medium transition duration-200 text-sm md:text-base">Home</a>
             <a href="#skills" class="text-gray-300 hover:text-accent font-medium transition duration-200 text-sm md:text-base">Expertise</a>
+            <a href="#featured" class="text-gray-300 hover:text-accent font-medium transition duration-200 text-sm md:text-base">Featured</a>
             <a href="#projects" class="text-gray-300 hover:text-accent font-medium transition duration-200 text-sm md:text-base">Projects</a>
             <a href="#experience" class="text-gray-300 hover:text-accent font-medium transition duration-200 text-sm md:text-base">Experience</a>
             <a href="#education" class="text-gray-300 hover:text-accent font-medium transition duration-200 text-sm md:text-base">Academics</a>
@@ -112,7 +113,21 @@
         </div>
     </section>
 
-    <section id="projects" class="container-section bg-gray-900/50">
+    <section id="featured" class="container-section pb-0">
+        <h2 class="text-3xl md:text-4xl font-bold section-heading">Final Year Project</h2>
+        <div class="grid grid-cols-1 gap-8">
+            <div class="card p-8 rounded-xl border-t-4 border-blue-500 shadow-[0_0_20px_rgba(59,130,246,0.15)]">
+                <div class="flex justify-between items-center mb-2">
+                    <h3 class="text-2xl font-bold text-accent">TrustChain: Blockchain-Based Secure Voting System</h3>
+                </div>
+                <span class="text-base text-gray-400 font-normal">(Decentralized Systems & Cryptography)</span>
+                <p class="text-sm font-mono text-gray-500 my-4">Stack: GoQuorum, Solidity, React.js, Node.js, Express.js, PostgreSQL, RSA-2048</p>
+                <p class="text-gray-300">Designed and developed a decentralized e-voting platform utilizing an enterprise-grade permissioned blockchain (GoQuorum) with IBFT 2.0 consensus. Engineered a secure architecture that ensures voter privacy through client-side RSA-2048 asymmetric encryption and enforces the "one-person-one-vote" rule via a cryptographic Ballot Token Hash mechanism. Integrated a React-based Progressive Web App (PWA) frontend with a Node.js/Express.js API gateway and PostgreSQL for administrative audit logs, achieving a highly available, transparent, and tamper-proof digital election infrastructure.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="container-section bg-gray-900/50 mt-12">
         <h2 class="text-3xl md:text-4xl font-bold section-heading">Innovative Security Projects</h2>
         <div class="grid grid-cols-1 gap-8">
 
@@ -149,7 +164,7 @@
                 </div>
                 <span class="text-base text-gray-400 font-normal">(Offensive Security & Penetration Testing)</span>
                 <p class="text-sm font-mono text-gray-500 my-4">Stack: Kali Linux, Nmap, Metasploit, Jenkins Script Console, WPScan</p>
-                <p class="text-gray-300">Conducted a controlled, comprehensive penetration test on a Windows Server 2008 R2 target utilizing the Penetration Testing Execution Standard (PTES) methodology[cite: 921, 938, 940]. Successfully identified and exploited critical system vulnerabilities, including leveraging EternalBlue (MS17-010) for SYSTEM-level remote code execution and exploiting unauthenticated access within the Jenkins Script Console[cite: 928, 956, 1011]. Formulated a professional risk assessment detailing immediate remediation steps, such as patching EOL systems and rectifying severe database and web application misconfigurations[cite: 923, 1058, 1065].</p>
+                <p class="text-gray-300">Conducted a controlled, comprehensive penetration test on a Windows Server 2008 R2 target utilizing the Penetration Testing Execution Standard (PTES) methodology. Successfully identified and exploited critical system vulnerabilities, including leveraging EternalBlue (MS17-010) for SYSTEM-level remote code execution and exploiting unauthenticated access within the Jenkins Script Console. Formulated a professional risk assessment detailing immediate remediation steps, such as patching EOL systems and rectifying severe database and web application misconfigurations.</p>
             </div>
 
             <div class="card p-8 rounded-xl">
@@ -161,7 +176,7 @@
                 </div>
                 <span class="text-base text-gray-400 font-normal">(Cloud & Distributed Computing)</span>
                 <p class="text-sm font-mono text-gray-500 my-4">Stack: Microsoft Azure, Kubernetes (AKS), Docker, PostgreSQL, Redis, Python</p>
-                <p class="text-gray-300">Designed and deployed a fault-tolerant, microservices-based containerized voting application on Microsoft Azure Kubernetes Service (AKS)[cite: 19, 25, 30]. Engineered the architecture to handle unpredictable workloads seamlessly by implementing Horizontal Pod Autoscalers (HPA) and load balancing[cite: 20, 24, 390]. Achieved robust data persistence and efficient caching by decoupling the application state into a PostgreSQL database and a Redis cache, ensuring right-sized resource utilization and cost optimization[cite: 61, 75, 783].</p>
+                <p class="text-gray-300">Designed and deployed a fault-tolerant, microservices-based containerized voting application on Microsoft Azure Kubernetes Service (AKS). Engineered the architecture to handle unpredictable workloads seamlessly by implementing Horizontal Pod Autoscalers (HPA) and load balancing. Achieved robust data persistence and efficient caching by decoupling the application state into a PostgreSQL database and a Redis cache, ensuring right-sized resource utilization and cost optimization.</p>
             </div>
 
             <div class="card p-8 rounded-xl">
@@ -261,7 +276,7 @@
                     <p class="text-gray-300">Ghulam Ishaq Khan Institute of Engineering Sciences and Technology (GIKI)</p>
                     
                     <p class="text-xl font-semibold text-accent mt-4">Dean's Honor Roll</p>
-                    <p class="text-gray-300">Recognized for academic distinction across four consecutive semesters, maintaining a consistently high GPA throughout the degree program.</p>
+                    <p class="text-gray-300">Recognized for academic distinction across five consecutive semesters, maintaining a consistently high GPA throughout the degree program.</p>
                 </div>
             </div>
             <div>
